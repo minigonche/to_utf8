@@ -14,6 +14,22 @@ def remove_accents(path_file_in, path_file_out):
 			line = line.replace('\xbf','')
 			line = line.replace('\r','')
 			line = line.replace('\n','')
+			line = line.replace("\xc3\xa8",'e')
+			line = line.replace("\xc3\xa9",'e')
+			line = line.replace("\xc3\xaa",'e')
+			
+				
+			line = line.replace("\xc3\xa0",'a')
+			line = line.replace("\xc3\xa1",'a')
+			line = line.replace("\xc3\xa2",'a')
+			line = line.replace("\xc3\xa3",'a')
+			line = line.replace("\xc3\xa4",'a')
+			line = line.replace("\xc3\xa5",'a')
+			line = line.replace("\xc3\xa6",'a')
+			
+			
+			
+			
 
 			#Gramatic Characters
 			line = line.replace('á','a')
